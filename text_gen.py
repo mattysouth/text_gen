@@ -7,6 +7,7 @@ st.text_input()
 
 if pyautogui.press('tab'):
   finish_text()
+  press_tab()
 
 def finish_text():
   text = input()
